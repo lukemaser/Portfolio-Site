@@ -1,0 +1,160 @@
+/*------
+Global
+-----*/
+body {
+  font-family: "Open Sans", "Helvetica   Neue", sans-serif;
+  color: #555;
+  font-size: 1rem;
+  background-color: #ebebeb;
+  margin: 0;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #555;
+  margin: 1.313rem 0;
+  max-width: 38rem;
+  text-align: center;
+}
+/*------
+Responsive
+------*/
+  @media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3rem 0;
+  }
+  .masthead-heading {
+    font-size: 3rem;
+    float: none;
+  }
+  .introduction-section,
+  .location-section, 
+  .questions-section,
+  .content-footer {
+    padding: 3rem 0;
+  }
+}
+/*------
+Masthead
+-----*/
+.masthead-heading,
+.masthead-intro,
+.content-footer,
+.featured-section {
+  text-align: center;
+  color: #fff;
+}
+.masthead,
+.one-edge-shadow {
+  padding: 6rem 0;
+  background-image:
+url("http://41.media.tumblr.com/2e741db9534a527d548926a997e3e745/tumblr_nhrpqg2nOB1sfie3io1_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: none 0.2rem #ebebeb;
+  opacity: 0.9;
+}
+.masthead-intro {
+  margin-bottom: 0.1rem;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2rem;
+}
+.masthead-heading {
+  margin-top: 0rem;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6rem;
+  letter-spacing: -0.02rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 5rem;
+}
+/*-----
+Introduction
+-----*/
+.introduction-section,
+.location-section, 
+.questions-section,
+.content-footer,
+.featured-section {
+  max-width: 38rem;
+  margin: 0 auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin-top: 2rem;
+}
+.introduction, 
+.location, 
+.content-footer
+.featured-section > p {
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+  color: #555;
+}
+.questions-section > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #555;
+  margin: 2rem 0 1rem 0;
+}
+/*-----
+Footer
+-----*/
+.content-footer {
+  background-image: url("http://40.media.tumblr.com/26f1c9abccecde35b2b055bed2a05dd2/tumblr_nh0avfQQJp1sfie3io1_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*border-top: solid 1em #ebebeb;*/
+  opacity: 0.9;
+  max-width: 200rem;
+  padding: 2rem;
+  background-color: #222;
+}
+
+.social > li {
+  margin: ;
+  display: inline-block;
+  padding: ;
+  list-style: none;
+}
+.content-footer {
+  color: #fff;
+}
+.content-footer > p {
+  color: #fff;
+}
+
+/*-----
+Featured Work
+-----*/
+.featured-section {
+  text-align: center;
+  margin: 0 auto;
+  color: #555;
+}
+.works {
+  list-style: none;
+  padding: 40px;
+}
+.caption {
+  margin: 2rem 0 2rem 0;
+}
+ .featured-section > li {
+  display: inline-block;
+  width: ;
+  float: left;
+  margin: 3rem;
+}
+.example {
+
+}
+/*a:link {
+  text-decoration: none;
+  color: #fff;
+}
+a:visited {
+  color: #fff;
+}
+a:hover {
+  color: #ebebeb;
+}*/
