@@ -60,8 +60,8 @@ url("http://41.media.tumblr.com/2e741db9534a527d548926a997e3e745/tumblr_nhrpqg2n
 }
 .masthead-heading {
   margin-top: 0rem;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: bold;
+  font-family: "Open Sans", Helvetica Neue, sans-serif;
+  font-weight: regular;
   font-size: 6rem;
   letter-spacing: -0.02rem;
   text-transform: uppercase;
@@ -101,7 +101,7 @@ Introduction
 Footer
 -----*/
 .content-footer {
-  background-image: url("http://40.media.tumblr.com/26f1c9abccecde35b2b055bed2a05dd2/tumblr_nh0avfQQJp1sfie3io1_1280.jpg");
+  /*background-image: url("http://40.media.tumblr.com/26f1c9abccecde35b2b055bed2a05dd2/tumblr_nh0avfQQJp1sfie3io1_1280.jpg");*/
   background-repeat: no-repeat;
   background-size: cover;
   /*border-top: solid 1em #ebebeb;*/
@@ -110,18 +110,17 @@ Footer
   padding: 2rem;
   background-color: #222;
 }
-
 .social > li {
-  margin: ;
+  color: #B2EDB2;
+  margin: 1rem 3rem 1rem 0;
   display: inline-block;
-  padding: ;
   list-style: none;
-}
-.content-footer {
-  color: #fff;
+  max-width: 38rem;
 }
 .content-footer > p {
   color: #fff;
+  display: inline-block;
+  text-align: center;
 }
 
 /*-----
@@ -129,7 +128,7 @@ Featured Work
 -----*/
 .featured-section {
   text-align: center;
-  margin: 0 auto;
+  margin: 5rem auto;
   color: #555;
 }
 .works {
@@ -141,11 +140,12 @@ Featured Work
 }
  .featured-section > li {
   display: inline-block;
-  width: ;
-  float: left;
-  margin: 3rem;
+  margin-right: 1.5rem;
 }
-/*a:link {
+a {
+
+}
+a:link {
   text-decoration: none;
   color: #fff;
 }
@@ -153,5 +153,6 @@ a:visited {
   color: #fff;
 }
 a:hover {
-  color: #ebebeb;
-}*/
+  color: #555;
+  transition: color 0.3s ease;
+}
